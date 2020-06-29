@@ -1,5 +1,5 @@
-const {dbURL,database} = require('../config/vars')
-const logger = require('../config/logger/logger')
+const {dbURL,database} = require('../vars')
+const logger = require('../middleware/logger/logger')
 
 
 const MongoClient = require('mongodb').MongoClient;

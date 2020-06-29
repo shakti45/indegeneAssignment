@@ -1,4 +1,6 @@
 
+// const dotenv  = require('dotenv').config()
+
 let node_env = process.NODE_ENV
 let port = process.env.PORT
 let database_url = process.env.DB_URL

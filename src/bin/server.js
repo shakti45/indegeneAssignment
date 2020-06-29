@@ -1,6 +1,6 @@
-const dotenv  = require('dotenv').config()
+require('dotenv').config({path:'../indegeneAssignment/src/.env'})
 const http = require('http')
-const app = require('../config/express/app')
+const app = require('../middleware/express/app')
 const logger = require('../middleware/logger/logger')
 const {port} = require('../vars')
 
