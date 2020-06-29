@@ -1,0 +1,25 @@
+{
+  "name": "indegeneassignment",
+  "version": "1.0.0",
+  "description": "Indegene Hiring Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakti45/indegeneAssignment.git"
+  },
+  "keywords": [
+    "Indegene",
+    "Hiring",
+    "Assignment",
+    "Four_Task"
+  ],
+  "author": "Shakti Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakti45/indegeneAssignment/issues"
+  },
+  "homepage": "https://github.com/shakti45/indegeneAssignment#readme"
+}
