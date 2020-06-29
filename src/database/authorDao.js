@@ -4,7 +4,8 @@ const logger = require('../middleware/logger/logger')
 
 const MongoClient = require('mongodb').MongoClient;
 
-const url = 'mongodb://localhost:27017';
+const url = dbURL
+//'mongodb://localhost:27017';
 
 let fetchRecords = async(q)=> {
 
@@ -17,7 +18,7 @@ let fetchRecords = async(q)=> {
 
     try {
 
-        const db = client.db("Indegene");
+        const db = client.db(database);
 
         let collection = db.collection('Authors');
 
