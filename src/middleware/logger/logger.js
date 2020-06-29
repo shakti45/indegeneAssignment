@@ -12,8 +12,8 @@ const logger = createLogger({
   ),
   defaultMeta: { service: 'author-service' },
   transports: [
-    new transports.File({ filename: 'logs/error.log', level: 'error' }),
-    new transports.File({ filename: 'logs/combined.log' })
+    new transports.File({ filename: './src/logs/error.log', level: 'error' }),
+    new transports.File({ filename: './src/logs/combined.log' })
   ]
 });
 if (process.env.NODE_ENV !== 'production') {
