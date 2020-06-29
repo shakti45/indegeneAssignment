@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/shakti45/indegeneAssignment/issues"
   },
-  "homepage": "https://github.com/shakti45/indegeneAssignment#readme"
+  "homepage": "https://github.com/shakti45/indegeneAssignment#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "winston": "^3.3.3"
+  }
 }
